@@ -245,3 +245,60 @@ h3{
 
 
   /* Contacto*/
+
+  .form-container{
+    margin: 100px;  
+    padding: 10px;
+    position: static;
+    background-color: #4484ceb4;
+    justify-content: center;
+    text-align: center;
+    color: #000000;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    
+    }
+
+    .p-contacto{
+        color: #000000;
+       text-align: left;
+       font-weight: bold;
+       font-family: 'Work Sans', sans-serif;
+       font-size: 20px;
+       }
+
+       .boton-enviar{
+        border-radius: 2em;
+        background-color: #f19f4d;
+        color: #ffffff;
+        padding: 0.5em 1.5em;
+
+
+        }
+
+        .boton-enviar:hover{
+            background-color: #f19f4dc5;
+            color: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+          }
+
+
+       .maps-responsive{
+        overflow:hidden;
+        padding-bottom:56.25%;
+        position:relative;
+        min-height: 500px;
+    
+    }
+    
+    
+    .maps-responsive iframe{
+        left:0;
+        top:0;
+        height:100%;
+        /*width:100%;*/
+        position:absolute;
+    
+    }
