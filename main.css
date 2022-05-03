@@ -1,10 +1,11 @@
 .navbar{
-    background-color: #4484ce;
+    background-color: #4484ce !important;
+    color: #ffffff ;
 }
 
-nav ul li{
+nav ul li a{
     padding: 2px;
-    color: #ffffff;
+    color: #ffffff !important;
   
     text-align: right;
     font-size: 20px;
@@ -12,11 +13,16 @@ nav ul li{
     font-family: 'Bebas Neue', cursive;
  }
 
+ navbar-brand{
+    background-color: #4484ce !important;
+    color: #ffffff ;
+}
+
 footer{
     justify-content: center;
     align-items: flex-end;
     height: auto;
-    color: #f4ecec;
+    color: #ffffff !important;
     background-color: #4484ce !important;
     text-align: center;
     font-weight: normal;
@@ -24,6 +30,9 @@ footer{
     font-size: 15px;
  }
 
+ footer ul li a{ 
+    color: #ffffff !important;
+}
  h1{
      color: #000000;
     background-color: #ffffff56;
@@ -58,8 +67,85 @@ footer{
 
 /* Servicios*/
 
+.cont-servicios{
+
+    margin: 20px auto;
+    padding: 15px;
+    
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    }
+  
+     .imagen-estudiantes{
+    
+      display: flex;
+      align-items: center;
+      height: 320px;
+      width: 300px;
+      margin: 0px auto;
+      border-radius: 100%;
+    }
+     .imagen-internacionales{
+        display: flex;
+        align-items: center;
+        margin: 0px auto;
+      height: 320px;
+      width: 300px;
+      
+      border-radius: 100%;
+    }
+     .imagen-empresas{
+      display: flex;
+      align-items: center;
+      margin: 0px auto;
+       height: 320px;
+      width: 300px;
+      position: static;
+      
+      border-radius: 100%;
+    
+    }
+     h4{
+       color: #000000;
+      text-align: center;
+      font-weight: bold;
+      font-family: 'Bebas Neue', cursive;
+      font-size: 20px;
+      margin-left: 200px;
+      margin-right: 200px;
+    
+    }
+     .parrafo-servicios{
+       color: #000000;
+      text-align: center;
+      font-weight: normal;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Work Sans', sans-serif;
+      font-size: 20px;
+    
+    }
+  
+    .main-servicios{
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+  
+  
+    }
+
 
 /* Nosotros*/
+
+h3{
+    color: #000000;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+  
+ }
 
 .p-nosotros{
   
@@ -77,14 +163,16 @@ footer{
 
    .card-container{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    justify-items: baseline;
     align-items: center;
     flex-wrap: wrap;
     
    } 
 
    .card {
-  
+    display: flex;
+    flex-direction: column;
     margin-top: 2em;
     padding: 1.5em 0.5em 0.5em;
     border-radius: 2em;
