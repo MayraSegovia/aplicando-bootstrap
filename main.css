@@ -61,7 +61,57 @@ footer{
 
 /* Nosotros*/
 
+.p-nosotros{
+  
+    color: #000000;
+    background-color: #ffffff85;
+    padding: 15px;
+    margin: 20px auto;
+    border:solid 1px #4484ce;
+    text-align: center;
+    font-weight: normal;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    justify-content: center;
+   }
 
+   .card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+   } 
+
+   .card {
+  
+    margin-top: 2em;
+    padding: 1.5em 0.5em 0.5em;
+    border-radius: 2em;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  .card img {
+    width: 65%;
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  .card .card-title {
+    font-weight: 700;
+    font-size: 1.5em;
+  }
+  .card .btn {
+    border-radius: 2em;
+    background-color: #f19f4d;
+    color: #ffffff;
+    padding: 0.5em 1.5em;
+  }
+  .card .btn:hover {
+    background-color: #f19f4dc5;
+    color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
 
  /* Horarios*/
  .dias{
