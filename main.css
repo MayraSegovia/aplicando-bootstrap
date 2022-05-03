@@ -1,0 +1,109 @@
+.navbar{
+    background-color: #4484ce;
+}
+
+nav ul li{
+    padding: 2px;
+    color: #ffffff;
+  
+    text-align: right;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: 'Bebas Neue', cursive;
+ }
+
+footer{
+    justify-content: center;
+    align-items: flex-end;
+    height: auto;
+    color: #f4ecec;
+    background-color: #4484ce !important;
+    text-align: center;
+    font-weight: normal;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+ }
+
+ h1{
+     color: #000000;
+    background-color: #ffffff56;
+    opacity: 10;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+}
+
+.navbar-brand {
+    color: #000000;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+}
+
+
+
+ p{
+    color: #000000;
+    padding: 15px;
+    background-color: #ffffff85;
+    border:solid 1px #4484ce;
+    text-align: center;
+    font-weight: normal;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+    justify-content: center;
+ }
+
+/* Servicios*/
+
+
+/* Nosotros*/
+
+
+
+ /* Horarios*/
+ .dias{
+  
+    color: #000000;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+ }
+  
+ .horarios{
+  
+  color: #000000;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 20px;
+ }
+  
+ .turnos{
+  
+  color: #000000;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 20px;
+ }
+  
+ td{
+  
+  color: #000000;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 20px;
+ }
+  
+ table{
+  display: flex;
+  justify-content: center;
+  }
+
+
+  /* Contacto*/
