@@ -1,6 +1,8 @@
 .navbar{
     background-color: #4484ce !important;
     color: #ffffff ;
+    display: flex;
+    justify-content: flex-end;
 }
 
 nav ul li a{
