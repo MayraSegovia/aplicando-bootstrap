@@ -95,21 +95,23 @@ h1{
     margin: 0px auto;
     border-radius: 100%;
     padding: 20px;
+ 
   }
    .imagen-internacionales{
-      display: flex;
-      align-items: center;
-      margin: 0px auto;
+    display: flex;
+    align-items: center;
+    margin: 0px auto;
     height: 320px;
     width: 300px;
     padding: 20px;
     border-radius: 100%;
+   
   }
    .imagen-empresas{
     display: flex;
     align-items: center;
     margin: 0px auto;
-     height: 320px;
+    height: 320px;
     width: 300px;
     position: static;
     padding: 20px;
@@ -176,7 +178,7 @@ h3{
   display: flex;
   justify-content: space-around;
   justify-items: baseline;
-  align-items: center;
+  
   flex-wrap: wrap;
   
  } 
@@ -190,6 +192,13 @@ h3{
   text-align: center;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
+.card-body{
+
+  display: flex;
+  flex-direction: column;
+
+} 
+
 .card img {
   width: 65%;
   border-radius: 50%;
